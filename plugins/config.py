@@ -41,7 +41,7 @@ class Config(object):
     
     DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://deepchutia:deepchutia@123@cluster0.eqcc3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     
-    SESSION_NAME = os.environ.get("SESSION_NAME", "uploader_voll4_bot")
+    SESSION_NAME = os.environ.get("SESSION_NAME", "uploader-bot-v4")
     
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002390640098"))
     
